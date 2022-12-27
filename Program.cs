@@ -24,4 +24,8 @@ void PrintArray(string[] array)
     Console.WriteLine();
 }
 
+string[] initialArray = new string[6] { "Shynar", "939", ":)", "world", "21" , "2.1-"};
+string[] newArray = new string[initialArray.Length];
+FindElementsFromArray (initialArray, newArray);
+PrintArray(newArray);
 
